@@ -1,6 +1,6 @@
 ## What?
 
-A minimal build process example of using Lightning CSS (alone) having it run when CSS files change, as well as refresh the page when changes are detected.
+A minimal build process example of using [Lightning CSS](https://lightningcss.dev/) (alone) having it run when CSS files change, as well as refresh the page when changes are detected.
 
 ## Spin it up.
 
