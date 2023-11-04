@@ -1,0 +1,16 @@
+{
+  "name": "lightning-css-example-project",
+  "version": "1.0.0",
+  "description": "example project using lightning css",
+  "author": "chriscoyier",
+  "license": "MIT",
+  "devDependencies": {
+    "lightningcss": "^1.22.0",
+    "lightningcss-cli": "^1.22.0",
+    "turbowatch": "^2.29.4"
+  },
+  "scripts": {
+    "dev": "turbowatch ./turbowatch.ts",
+    "process": "lightningcss --minify --bundle --targets 'defaults' css/index.css -o style.css"
+  }
+}

@@ -1,0 +1,34 @@
+html {
+  --orange: oklch(79.23% 0.192 67.1);
+
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  border: 3px solid var(--orange);
+  border-radius: 12px;
+  overflow: clip;
+  inline-size: max(80%, 30vw);
+
+  header {
+    background: var(--orange);
+    color: white;
+    padding: 0.5lh 1lh;
+    h3 {
+      margin: 0;
+    }
+  }
+  .box-content {
+    padding: 2lh;
+  }
+}

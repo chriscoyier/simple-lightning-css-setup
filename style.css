@@ -1,0 +1,4 @@
+/*! 
+  CSS is cool.
+*/
+*,:before,:after{box-sizing:border-box}html{--orange:#ffa31f;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}@supports (color:lab(0% 0 0)){html{--orange:lab(75.3031% 35.2545 94.8166)}}body{margin:0}main{place-items:center;height:100dvh;display:grid}.box{border:3px solid var(--orange);border-radius:12px;inline-size:max(80%,30vw);overflow:clip}.box header{background:var(--orange);color:#fff;padding:.5lh 1lh}.box header h3{margin:0}.box .box-content{padding:2lh}
